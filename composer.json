@@ -1,0 +1,26 @@
+{
+    "name": "nexa-merchant/monitor",
+    "license": "MIT",
+    "description" : "Apps",
+    "authors": [
+        {
+            "name": "Steven",
+            "email": "nice.lizhi@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "NexaMerchant\\Monitor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NexaMerchant\\Monitor\\Providers\\MonitorServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
